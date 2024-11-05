@@ -1,0 +1,36 @@
+:root {
+    --cor-principal-fundo: #E4DACE;
+    --cor-secundaria-letras: #786B62;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-principal-fundo);
+    display: flex; /* Adiciona flexbox para centralização */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.texto-inicio { 
+    font-size: 70px;
+    color: var(--cor-secundaria-letras);
+}
+
+.container {
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    text-align: center;
+}
+
+.imagem-principal {
+    width: 100%; /* Ajusta a largura conforme necessário */  
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço sem distorção */
+}
